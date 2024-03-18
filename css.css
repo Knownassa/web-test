@@ -1,4 +1,8 @@
-.body{
-    background-color: darkslateblue;
-    color: aliceblue;
-}
+body{
+    background-color: #fafafa;
+    color: rgb(0, 0, 0);
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
