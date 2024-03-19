@@ -10,7 +10,6 @@ body {
 #hero {
   padding: 50px;
   height: 500px;
-  align-content: center;
   text-align: center;
   background-image: url(Images/bg.jpg);
   background-repeat: no-repeat;
@@ -34,6 +33,7 @@ h1 {
   width: 60%;
   text-align: center;
   align-items: center;
+  align-content: space-around;
 }
 
 button {
@@ -46,4 +46,11 @@ button {
 button :hover {
   background-color: blanchedalmond;
   color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  align-content: stretch;
+  padding: 5px 10px;
 }
