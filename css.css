@@ -18,12 +18,29 @@ body {
   margin: 0
 }
 
+#hero {
+  padding: 50px;
+  height: 500px;
+  align-content: center;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
   font-family: "Space Grotesk", sans-serif;
-  font-weight: 600;
+  font-weight: 800;
   font-style: normal;
+  font-size: 60px;
 }
 
 .name {
   font-style: italic;
+  font-weight: 400;
+}
+
+
+#hero-text {
+  text-align: center;
+  align-items: center;
 }
