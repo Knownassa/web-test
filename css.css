@@ -31,10 +31,8 @@ h1 {
 
 #hero-text {
   width: 60%;
-  text-align: center;
   align-items: center;
   align-content: space-around;
-  text-align: center;
 }
 
 button {
@@ -42,6 +40,7 @@ button {
   color: whitesmoke;
   padding-top: 10px;
   padding: 10px 15px;
+  border-radius: 9%;
 }
 
 button :hover {
@@ -61,5 +60,5 @@ header {
 
 #cta {
   width: 10%;
-  text-align: right;
+  align-items: end;
 }
