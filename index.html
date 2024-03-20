@@ -18,18 +18,25 @@
 
 <body>
     <header>
-        <div>Logo</div>
+        <div id="Logo">Logo</div>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">page 1</a></li>
                 <li><a href="#">page 2</a></li>
-                <li><a href="#">page 3</a></li>
+                <li><a href="#">page 3
+                        <ul class="dropdown">
+                            <li><a href="#">link-1</a></li>
+                            <li><a href="#">link-2</a></li>
+                            <li><a href="#">link-3</a></li>
+                        </ul>
+                    </a></li>
                 <li><a href="#">page 4</a></li>
                 <li><a href="#">page 5</a></li>
             </ul>
         </nav>
-        <button>Hire us</button>
+        <div id="cta"><button>Hire us</button></div>
+
     </header>
 
     <section id="hero">
@@ -46,7 +53,7 @@
 
     <section>
         <div>
-            <h1>Not my first Website!</h1>
+            <h2>Not my first Website!</h2>
             <p>Welcome Folks! I am <span class="name">Sayef Ahmed</span>. I am an UI/UX Designer. It is not my first
                 website. I do not even know how many website I have created. I hope that you guys will like my website.
                 It is not completed, But will look gorgious.</p>

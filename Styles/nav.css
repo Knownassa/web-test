@@ -1,4 +1,10 @@
-nav ul {
+nav {
+    width: 80%;
+    align-content: center;
+    align-items: center;
+}
+
+nav>ul {
     display: flex;
 
 }
@@ -12,13 +18,32 @@ nav li {
 nav li a {
     text-decoration: none;
     color: black;
-    padding: 10px 15px;
+    padding: 5px 10px;
 
 }
 
-nav li :hover {
+nav li a:hover {
     background-color: black;
     color: white;
-    padding: 10px 15px;
+    padding: 5px 10px;
 
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 0;
+}
+
+.dropdown:hover {
+    background-color: white;
+}
+
+.dropdown li {
+    padding: 5px 8px;
 }

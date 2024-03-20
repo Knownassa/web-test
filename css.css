@@ -34,6 +34,7 @@ h1 {
   text-align: center;
   align-items: center;
   align-content: space-around;
+  text-align: center;
 }
 
 button {
@@ -51,6 +52,14 @@ button :hover {
 header {
   display: flex;
   align-items: center;
-  align-content: stretch;
   padding: 5px 10px;
+}
+
+#logo {
+  width: 10%;
+}
+
+#cta {
+  width: 10%;
+  text-align: right;
 }
